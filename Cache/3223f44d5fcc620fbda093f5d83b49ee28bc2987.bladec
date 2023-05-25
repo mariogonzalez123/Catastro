@@ -1,0 +1,15 @@
+<?php $_shouldextend[1]=1; ?> 
+
+<?php $this->startSection('content'); ?>
+<form  action ="index.php" method='POST'>
+ <p><label for="numero">Introduce numero de intentos:</label>
+ <input type="number" name="intentos" id="intentos" placeholder="Introduce el número de intentos"> 
+ <p><label for="min">Introduce el mínimo</label>
+ <input type="number" name="min" id="min" placeholder="Introduce el mínimo"> 
+ <p><label for="max">Introduce el mánimo</label>
+ <input type="number" name="max" id="max" placeholder="Introduce el máximo"> 
+ <input class="submit" type="submit" value="formu" name="Enviar">
+</form>
+<?php $this->stopSection(); ?>
+
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('master'); } ?>
