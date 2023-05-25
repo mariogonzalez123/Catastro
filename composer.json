@@ -1,0 +1,16 @@
+{
+    "name": "mario/web-services-mariogonzalez123",
+    "type": "project",
+    "require": {
+        "eftec/bladeone": "^4.9",
+        "google/apiclient": "^2.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mario\\WebServicesMariogonzalez123\\": "src/"
+        }
+    }
+    
+    
+    
+}
